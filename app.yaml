@@ -1,0 +1,78 @@
+runtime: go
+api_version: go1
+
+handlers:
+- url: /.*
+  script: _go_app
+
+skip_files:
+- "^(.*/)?#.*#$"
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?\..*$
+- ^/\.git/.*
+- ^/letsencrypt/.*
+- ^/content/.*
+- \.gitignore
+- README\.md
+- LICENSE
+
+handlers:
+- url: /(.*\.html)
+  mime_type: text/html
+  static_files: public/\1
+  upload: public/(.*\.html)
+  expiration: "1h"
+
+# css and js anywhere in public
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: public/\1
+  upload: public/(.*\.css)
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: public/\1
+  upload: public/(.*\.js)
+
+# web open fonts
+- url: /(.*\.woff)
+  mime_type: application/x-font-woff
+  static_files: public/\1
+  upload: public/(.*\.woff)
+
+# image files
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: public/\1
+  upload: public/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
+- url: /(.*\.(svg|svgz))
+  mime_type: images/svg+xml
+  static_files: public/\1
+  upload: public/(.*\.(svg|svgz))
+
+# site root
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
+  expiration: "2m"
+  secure: always
+
+# index files
+- url: /(.+)/
+  static_files: public/\1/index.html
+  upload: public/(.+)/index.html
+  expiration: "2m"
+  secure: always
+
+- url: /(.+)
+  static_files: public/\1/index.html
+  upload: public/(.+)/index.html
+  expiration: "2m"
+  secure: always
+
+# RSS
+- url: /(.*\.rss)
+  mime_type: application/rss+xml
+  static_files: public/\1
+  upload: public/(.*\.rss)
+  expiration: "1h"

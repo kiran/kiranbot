@@ -1,0 +1,35 @@
+theme = "hyde"
+baseurl = "https://kiranbot.com/"
+languageCode = "en-us"
+title = "Kiran Bhattaram"
+
+metaDataFormat = "yaml"
+
+footnotereturnlinkcontents = "↩"
+
+[author]
+  name = "Kiran Bhattaram"
+  email = "me@kiranbot.com"
+
+[params]
+  themeColor = "theme-base-08"
+  disqusShortname = "kiranbot"
+  description = "An occasional blog about making things. Often programming and sewing."
+
+  [params.logo]
+    url = "profile.jpg"
+    width = 50
+    height = 50
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Computers"
+    url = ""
+[[menu.main]]
+    name = "Paper Reports"
+    url = ""
+[[menu.main]]
+    name = "Sewing"
+    url = ""
