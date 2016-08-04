@@ -1,9 +1,7 @@
+application: kiranbotblog
+version: 2
 runtime: go
 api_version: go1
-
-handlers:
-- url: /.*
-  script: _go_app
 
 skip_files:
 - "^(.*/)?#.*#$"
@@ -29,6 +27,7 @@ handlers:
   mime_type: text/css
   static_files: public/\1
   upload: public/(.*\.css)
+
 - url: /(.*\.js)
   mime_type: text/javascript
   static_files: public/\1
