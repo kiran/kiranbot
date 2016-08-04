@@ -1,5 +1,5 @@
 ---
-date: 2014-07-18T18:17:54-07:00
+date: 2014-07-18
 title: Sparkling everything - setting up a home carbonation system
 permalink: carbonation
 thumbnail: /images/home-carbonation/thumbnail.jpg

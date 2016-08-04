@@ -1,5 +1,5 @@
 ---
-date: 2014-07-23T18:17:54-07:00
+date: 2014-07-23
 title: Summer Reading Log
 layout: "post"
 permalink: summer-reading-log-2014
