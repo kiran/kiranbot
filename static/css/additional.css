@@ -12,23 +12,23 @@ img.thumbnail {
 
 figure.left {
   float: left;
-  margin-right: 1.5em; }
+  margin-right: 0.5em; }
 figure.right {
   float: right;
-  margin-left: 1.5em; }
+  margin-left: 0.5em; }
 figure.center {
   display: block;
   margin: 0 auto 1.5em; }
 figure.left, figure.right {
   margin-bottom: .8em; }
 
-img {
-  border: 1px solid #828282; }
-  .half img {
-    width: 45%; }
   .medium img {
     width: 300px;
   }
+
+/* hacks */
+.imgNewLine { clear: both; float: left; display: block; position: relative; } 
+
 
  .sidebar-about h1 {
   color: #fff;
