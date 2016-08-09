@@ -1,8 +1,6 @@
 ---
 date: 2014-10-17
 title: SPACESHIP (another belladone)
-layout: "post"
-permalink: spaceship-belladone
 category: sewing
 thumbnail: /images/space-belladone/thumbnail.jpg
 ---
@@ -37,7 +35,7 @@ I can't wait to cut into.
 
 **Fabric** // Quilting weight cotton designed by Riley Blake Designs from [Stash Fabrics](http://www.stashfabrics.com/fabric/details/october-afternoon/rocket-age/rocket-blast-in-navy)
 
-**Pattern** // Deer and Doe's [Belladone](http://boutique.deer-and-doe.fr/2-dresses-belladone-dress.html)
+**Pattern** // Deer and Doe's [Belladone](https://shop.deer-and-doe.fr/en/sewing-patterns/8-belladone-dress-pattern.html)
 
 ## Adjustments
 

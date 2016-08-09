@@ -1,8 +1,6 @@
 ---
 date: "2014-09-27"
 title: Various Crochet Projects
-layout: "post"
-permalink: summer-crochet-2014
 thumbnail: /images/summer-14-crochet/trex-thumbnail.jpg
 tags: [crochet]
 ---

@@ -1,8 +1,6 @@
 ---
 date: 2014-11-30
 title: Bicycle Belladone
-layout: "post"
-permalink: bicycle-belladone
 thumbnail: /images/bicycle-belladone/thumbnail.jpg
 category: sewing
 tags: [sewing]
@@ -17,7 +15,7 @@ And that's how I found myself at the 22nd Street Caltrain station with an hour t
 {{<figure src="/images/bicycle-belladone/grumpy_cat.jpg" class="left medium" >}}
 {{<figure src="/images/bicycle-belladone/grumpy_kiran.jpg" class="right medium" >}}
 
-<div class="imgNewLine">
+<div class="imgNewLine"></div>
 
 This is easily my favorite pattern right now -- I've only made 3 versions of it. :P It's an 8-piece pattern, with 8 darts total, so it comes together in a few hours. The bias tape binding and skirt facing make finishing the dress a breeze, since there's no fussy folding hem.
 
@@ -43,11 +41,11 @@ I love how perfectly the back pieces lie. This is the same adjustment I've made 
 
 **Fabric** // Quilting weight cotton by Art Gallery Fabric ([Bikaleidoscope from Cleta](http://www.artgalleryfabrics.com/cgi-bin/fabricshop/gallery.cgi?func=show&file=10&Category=109&Page=1&v=1))
 
-**Pattern** // Deer and Doe’s [Belladone](http://boutique.deer-and-doe.fr/belladone-dress.html)
+**Pattern** // Deer and Doe’s [Belladone](https://shop.deer-and-doe.fr/en/sewing-patterns/8-belladone-dress-pattern.html)
 
 ## Adjustments
 
 Same as the [spaceship belladone](/spaceship-belladone) and the [hot pink belladone](/first-belladone-dress), minus the waist-cinching.
 
-<div class="imgNewLine">
+<div class="imgNewLine"></div>
 

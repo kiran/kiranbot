@@ -56,6 +56,11 @@ handlers:
   expiration: "2m"
   secure: always
 
+# letsencrypt challenges
+- url: /(\.well-known/acme-challenge/.*)
+  script: letsencrypt
+  secure: optional  # These need to be able to be HTTP for bootstrapping.
+
 # index files
 - url: /(.+)/
   static_files: public/\1/index.html

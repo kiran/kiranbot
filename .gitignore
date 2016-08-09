@@ -25,3 +25,15 @@ _testmain.go
 
 .DS_Store
 public
+
+# Certificates from letsencrypt
+/certs/
+
+# Themes are immutable I guess
+/themes/
+
+# Stuff for generating certs:
+/letsencrypt.sh/
+/letsencrypt.go
+/private_key.*
+/accounts/

@@ -1,8 +1,6 @@
 ---
 date: "2014-10-09"
 title: First Belladone Dress
-layout: "post"
-permalink: first-belladone-dress
 thumbnail: /images/first-belladone/thumbnail.jpg
 category: sewing
 tags: [deer and doe, belladone, sewing]
@@ -31,7 +29,7 @@ fits. Looking forward to stamping out tons more of these!
 
 **Fabric** // Stretch cotton twill in coral from Fabric Outlet in SF
 
-**Pattern** // Deer and Doe's [Belladone](http://boutique.deer-and-doe.fr/2-dresses-belladone-dress.html)
+**Pattern** // Deer and Doe's [Belladone](https://shop.deer-and-doe.fr/en/sewing-patterns/8-belladone-dress-pattern.html)
 
 **Sizing** //
 My size was all over the place: I cut the front bodice at a 40, the back at a 36,
