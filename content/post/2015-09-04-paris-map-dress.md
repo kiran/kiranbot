@@ -2,7 +2,6 @@
 date: 2015-09-04
 title: Un plan de Paris
 thumbnail: /images/paris-map-dress/thumbnail.jpg
-category: sewing
 tags: [sewing, by-hand-london, kim]
 ---
 

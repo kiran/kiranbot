@@ -1,8 +1,7 @@
 ---
 date: 2015-01-02
 title: (redbook) What Goes Around Comes Around
-category: computers
-tags: [papers, databases, redbook]
+tags: [computers, papers, databases, redbook]
 ---
 
 *This is part of a series of posts about papers from the latest Red Book (Readings in Database Systems). The post that follows is mostly an annotated (non-comprehensive) summary of the paper -- what I found interesting, and want to discuss further.*

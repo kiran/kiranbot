@@ -2,7 +2,6 @@
 date: 2014-12-07
 title: Jade Marlborough Bra
 thumbnail: /images/jade-marlborough-bra/thumbnail.jpg
-category: sewing
 tags: [sewing, knits, bra]
 ---
 

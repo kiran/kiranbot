@@ -1,16 +1,19 @@
 ---
 date: 2016-07-27
 title: "A History of Storage Media: Williams Tube"
-category: computers
 draft: true
-tags: [history of technology, storage]
+tags: [computers, history of technology, storage]
 ---
 
-Last post, we described the fairly ubiquitous punch card. That was a write-once mechanical mechanism for storing information data. While mechanical memory worked well, it was a fairly slow mechanism.
+Last post, we described the fairly ubiquitous punch card. That was a write-once mechanical mechanism for storing information data. While mechanical memory worked well, it's a fairly slow mechanism.
 
-The Williams-Kilburn tube was the first entirely electriconic memory mechanism.
+We'll pick up the story in Manchester, which was a The Williams-Kilburn tube was the first entirely electriconic memory mechanism.
+
+The Manchester Baby (https://www.youtube.com/watch?v=SpqayTc_Gcw)
 
 ## Williams tube
+
+The first cathode ray tube with a scanning device was invented just before the turn of the 20th century. They were soon used widely for oscilloscopes, and became ubiquitous in radar systems during the Second World War. Cathode ray tubes became a common way to display electrical information.
 
 The Williams-Kilburn tube was a cathode ray tube used as computer memory. The electrostatic tube could store from 512 to 2048 bits of data as dots on the screen. It's a very introspectable data storage mechanism!
 
@@ -46,7 +49,7 @@ First -- a bit of background information about weaving patterns and how it can b
 
 {{<figure class="right medium" src="/images/punch-cards/Warp-and-Weft.gif">}}[^4]
 
-Most fabric is woven with 2 sets of yarn that are perpendicular to each other. The first set of threads, the warp, are stretched out over a loom, and the second set, the weft, is passed either over or under the threads of the warp to form the fabric. This over-under means that the operation is easily represented by binary information. Changing the order of the over-under produces different kinds of designs.
+Most fabric is woven with 2 sets of yarn that are perpendicular to each other. The first set of threads, the warp, is stretched out over a loom, and the second set, the weft, is passed either over or under the threads of the warp to form the fabric. This over-under means that the operation is easily represented by binary information. Changing the order of the over-under produces different kinds of designs.
 
 In the following example of a woven design, the warp is white, and the weft is blue. To weave in a zigzag pattern, the loom raises the first 2 threads, drops the second 2, raises the next 2, and so on, across the warp. Then, the weft is passed through the warp, weaving in the first thread. This is repeated across the next few rows, until we start to see a zigzag pattern appear. (Fun fact -- this diagonal weave is called a twill weave, which is what most denims and chinos are!)
 

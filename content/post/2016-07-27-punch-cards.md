@@ -1,8 +1,7 @@
 ---
 date: 2016-07-27
 title: "A History of Storage Media: Punch Cards"
-category: computers
-tags: [history of technology, storage]
+tags: [computers, history of technology, storage]
 ---
 
 Storage is an essential part of every computer architecture, from a Turing machine's hypothetical tape to the registers and memory unit of a Von Neummann architecture. Storage media have gone through several technological evolutions over time, including some delightfully bizarre mechanisms.
@@ -22,7 +21,7 @@ First -- some background information about weaving patterns into fabric.
 
 {{<figure class="right medium" src="/images/punch-cards/Warp-and-Weft.gif">}}
 
-Most fabric is woven with 2 sets of yarn that are perpendicular to each other. The first set of threads, the warp, are stretched out over a loom, and the second set, the weft, is passed either over or under the threads of the warp to form the fabric. This over-under means that the operation is easily represented by binary information. Changing the order of the over-under produces different kinds of designs.
+Most fabric is woven with 2 sets of yarn that are perpendicular to each other. The first set of threads, the warp, is stretched out over a loom, and the second set, the weft, is passed either over or under the threads of the warp to form the fabric. This over-under means that the operation is easily represented by binary information. Changing the order of the over-under produces different kinds of designs.
 
 In the following example of a woven design, the warp is white, and the weft is blue. To weave in a zigzag pattern, the loom raises the first 2 threads, drops the second 2, raises the next 2, and so on, across the warp. Then, the weft is passed through the warp, weaving in the first thread. This is repeated across the next few rows [^4], until we start to see a zigzag pattern appear. (Fun fact -- this diagonal weave is called a twill weave, which is what most denims and chinos are!)
 
@@ -52,7 +51,7 @@ To cope with the growing population, the census bureau held a competition for a 
 
 {{% figure src="/images/punch-cards/tabulator.jpg" attr="The Hollerith Tabulator." %}}
 
-After the success of the tabulator in the 1890 census, other countries began adopting the technology. Soon, Hollerith's Tabulating Machine Company produced machines for many other industries. Information processing via punch card became a large industry. During World War I, the army used punch cards to store medical and troop data.Insurance companies stored actuarial tables on punch cards, and railroads used them to track operating expenses. Through the 1970s, both computer control programs and data input was via punch card.
+After the success of the tabulator in the 1890 census, other countries began adopting the technology. Soon, Hollerith's Tabulating Machine Company produced machines for many other industries. Information processing via punch card became a large industry. During World War I, the army used punch cards to store medical and troop data. Insurance companies stored actuarial tables on punch cards, and railroads used them to track operating expenses. Throughout the 1970s, punch cards served as the medium for inputting both data and control programs.
 
 After his death, the Computer Tabulating Recording Company renamed itself to the International Business Machines Corporation, or IBM, leading us into a new era of computing.
 

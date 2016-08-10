@@ -4,7 +4,6 @@ title: Elisalex
 layout: "post"
 permalink: elisa-done-bella-lex
 thumbnail: /images/confetti-elisalex/thumbnail.jpg
-category: sewing
 tags: [sewing, By Hand London, Elisalex]
 ---
 

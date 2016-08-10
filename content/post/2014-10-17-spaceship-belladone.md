@@ -1,7 +1,7 @@
 ---
 date: 2014-10-17
 title: SPACESHIP (another belladone)
-category: sewing
+tags: [sewing, deer and doe, belladone]
 thumbnail: /images/space-belladone/thumbnail.jpg
 ---
 

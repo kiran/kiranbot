@@ -1,8 +1,7 @@
 ---
 date: 2015-11-01
 title: (Paper report) Harvest/Yield
-category: computers
-tags: [papers, distributed-systems]
+tags: [computers, papers, distributed-systems]
 ---
 
 *This is part of a series of posts I'm writing for my version of NaNoWriMo, where I summarize/review papers I've read recently.*

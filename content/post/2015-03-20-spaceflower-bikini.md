@@ -3,7 +3,6 @@ date: 2015-03-20
 title: Spaceflower Swimsuit
 permalink: spaceflower-swimsuit
 thumbnail: /images/spaceflower-swimsuit/thumbnail.jpg
-category: sewing
 tags: [sewing]
 ---
 

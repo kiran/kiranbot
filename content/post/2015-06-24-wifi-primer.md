@@ -1,8 +1,7 @@
 ---
 date: 2015-06-24
 title: A Wifi Primer
-category: computers
-tags: [wifi, networks]
+tags: [computers, wifi, networks]
 ---
 
 Wifi's become ubiquitous in the last 15 years. The first 802.11 wifi standard was published by the IEEE in 1997, and was specified with a maximum speed of 2 Mbps. Since then, we've seen astronomical increases in speed -- the latest amendment to the wifi protocol, 802.11ac, has a _theoretical_ upper speed of 3.39 Gbps to one station.

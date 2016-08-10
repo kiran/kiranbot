@@ -2,7 +2,6 @@
 date: 2015-06-04
 title: Sailboat dress!
 thumbnail: /images/sailboat-dress/thumbnail.jpg
-category: sewing
 tags: [sewing, sewaholic]
 ---
 

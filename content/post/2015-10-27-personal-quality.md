@@ -1,7 +1,6 @@
 ---
 date: 2015-10-27
 title: exciting new ways to learn languages
-category: writing
 tags: [college-essays, writing]
 ---
 

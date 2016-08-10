@@ -1,6 +1,7 @@
 theme = "hyde"
 languageCode = "en-us"
 title = "Kiran Bhattaram"
+baseUrl = "https://www.kiranbot.com"
 
 metaDataFormat = "yaml"
 
@@ -25,10 +26,10 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
 [[menu.main]]
     name = "Computers"
-    url = ""
+    url = "/tags/computers"
 [[menu.main]]
     name = "Paper Reports"
-    url = ""
+    url = "/tags/paper-reports"
 [[menu.main]]
     name = "Sewing"
-    url = ""
+    url = "/tags/sewing/"

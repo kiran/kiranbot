@@ -1,7 +1,6 @@
 ---
 date: 2015-10-27
 title: For the pleasure of it
-category: writing
 tags: [college-essays, writing]
 ---
 

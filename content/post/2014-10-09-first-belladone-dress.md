@@ -2,7 +2,6 @@
 date: "2014-10-09"
 title: First Belladone Dress
 thumbnail: /images/first-belladone/thumbnail.jpg
-category: sewing
 tags: [deer and doe, belladone, sewing]
 ---
 

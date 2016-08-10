@@ -2,8 +2,7 @@
 date: 2014-11-30
 title: Bicycle Belladone
 thumbnail: /images/bicycle-belladone/thumbnail.jpg
-category: sewing
-tags: [sewing]
+tags: [sewing, deer and doe, sewing]
 ---
 
 {{<figure src="/images/bicycle-belladone/front.jpg" class="right" title="Bicycle Belladone" >}}

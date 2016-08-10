@@ -2,7 +2,6 @@
 date: 2015-06-12
 title: Shelley Bra v1
 thumbnail: /images/shelley-bra-v1/thumbnail.jpg
-category: sewing
 tags: [sewing, bra]
 ---
 

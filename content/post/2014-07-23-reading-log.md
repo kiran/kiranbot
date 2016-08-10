@@ -2,7 +2,6 @@
 date: 2014-07-23
 title: Summer Reading Log
 thumbnail: /images/summer-reading-log-2014/thumbnail.jpg
-category: reading
 tags: [books]
 ---
 

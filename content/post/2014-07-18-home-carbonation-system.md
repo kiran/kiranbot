@@ -2,7 +2,6 @@
 date: 2014-07-18
 title: Sparkling everything - setting up a home carbonation system
 thumbnail: /images/home-carbonation/thumbnail.jpg
-category: recipes
 tags: [soda, food and drink]
 ---
 

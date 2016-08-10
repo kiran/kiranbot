@@ -2,7 +2,6 @@
 date: 2014-12-17
 title: Minoru Cycling Jacket
 thumbnail: /images/minoru-jacket/thumbnail.jpg
-category: sewing
 tags: [sewaholic, minoru, sewing]
 ---
 

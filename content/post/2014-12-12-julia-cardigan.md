@@ -2,7 +2,6 @@
 date: 2014-12-12
 title: Julia Cardigan
 thumbnail: /images/julia-cardigan/thumbnail.jpg
-category: sewing
 tags: [sewing]
 ---
 

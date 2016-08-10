@@ -1,8 +1,7 @@
 ---
 date: 2015-10-01
 title: Notes from Strangeloop 2015
-category: computers
-tags: [strangeloop, conferences]
+tags: [computers, strangeloop, conferences]
 ---
 
 Last week, I attended the Strange Loop conference in St. Louis for the first time! This was a comprehensive and long conference, so pardon my long-windedness!

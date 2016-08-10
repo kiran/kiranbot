@@ -1,8 +1,7 @@
 ---
 date: 2015-05-09
 title: The Tale of the Cursed Operating Systems Textbook!
-category: computers
-tags: [operating systems, networks]
+tags: [computers, operating systems, networks]
 ---
 
 I have a cursed operating systems textbook. Each chapter I read unearths a new bug in the systems I work on.

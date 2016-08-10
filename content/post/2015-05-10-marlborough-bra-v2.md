@@ -3,7 +3,6 @@ date: 2015-05-10
 title: Failed Marlborough Bra
 permalink: failed-marlborough-bra
 thumbnail: /images/failed-marlborough-bra/thumbnail.jpg
-category: sewing
 tags: [sewing, bra]
 ---
 

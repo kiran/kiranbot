@@ -2,7 +2,6 @@
 date: 2015-01-25
 title: Elementary - the Watson Set
 thumbnail: /images/first-watson/thumbnailw.jpg
-category: sewing
 tags: [sewing, lingerie, watson]
 ---
 
