@@ -18,7 +18,7 @@ All right, this was a bit of a bait and switch. Punch cards aren't really a stra
 Many early ancestors of computers were controlled by punchcards, or similar mechanisms.
 The ancestor of these machines, in turn, was the Jacqard loom. This loom, which automated the production of elaborately woven textiles, was the first machine to use punch cards as an automated instruction sequence.
 
-First -- a bit of background information about weaving patterns and how it can be automated.
+First -- some background information about weaving patterns into fabric.
 
 {{<figure class="right medium" src="/images/punch-cards/Warp-and-Weft.gif">}}
 
@@ -60,4 +60,4 @@ After his death, the Computer Tabulating Recording Company renamed itself to the
 
 [^2]: A nitpick: not all automated looms allow independent control of every warp end. Dobby looms, which appeared about 40 years after the Jacquard device, control groups of threads attached to shafts. Jacquard devices have more shafts than Dobby looms, but don't always allow for control of _every_ thread. [This explanation](http://blog.guilfordofmaine.com/dobby-vs.-jacquard.-a-tale-of-two-looms) differentiates between Dobby looms and Jacquard looms, and includes pretty gifs!
 [^3]: The U.S. Census Bureau describes the [tabulation and processing of the 1880s census](https://www.census.gov/history/www/innovations/technology/tabulation_and_processing.html)
-[^4]: The weft on the end should be looped over, making the selvege, but drawing convincing curved shapes isn't Google Drawing's forte.
+[^4]: An accuracy apology: The weft on the end should be looped over, making the selvege, but drawing convincing curved shapes isn't Google Drawing's forte.
