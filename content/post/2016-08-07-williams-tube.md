@@ -5,84 +5,69 @@ draft: true
 tags: [computers, history of technology, storage]
 ---
 
-Last post, we described the fairly ubiquitous punch card. That was a write-once mechanical mechanism for storing information data. While mechanical memory worked well, it's a fairly slow mechanism.
+Last post, we described the fairly ubiquitous punch card, a mechanical write-once mechanism for storing information. Both the [Colossus](https://en.wikipedia.org/wiki/Colossus_computer) and the [ENIAC](https://en.wikipedia.org/wiki/ENIAC) used paper tape for data input, but a complicated system of patchcords for the control programs. Reprogamming these machines was a huge undertaking, and researchers began to discuss using the same storage mechanisms for both program control and data input.
 
-We'll pick up the story in Manchester, which was a The Williams-Kilburn tube was the first entirely electriconic memory mechanism.
+This sort of truly reprogrammable computer would require some sort of memory device to store the programs. While it's possible to build computers using mechanical memory, most mechanical memory systems are slow and fiddly. Developing electronic storage was the next big frontier in computer design.
 
-The Manchester Baby (https://www.youtube.com/watch?v=SpqayTc_Gcw)
+With the stage set, let's now pick up the story in Manchester (coincidentally, a city well-known for its textiles industry.)
 
-## Williams tube
+## Cathode ray tubes and radar
 
-The first cathode ray tube with a scanning device was invented just before the turn of the 20th century. They were soon used widely for oscilloscopes, and became ubiquitous in radar systems during the Second World War. Cathode ray tubes became a common way to display electrical information.
+The first cathode ray tube used as display was invented just before the turn of the 20th century. They were soon used widely for oscilloscopes, and TKTK other uses. Cathode ray tubes were a common way to display electrical information.
 
-The Williams-Kilburn tube was a cathode ray tube used as computer memory. The electrostatic tube could store from 512 to 2048 bits of data as dots on the screen. It's a very introspectable data storage mechanism!
+// image of a WWII era radar screen
 
-> this early random-access memory was used in several early computers.
+During the Second World War, cathode ray tubes became ubiquitous in radar systems, which kicked off research and development of more advanced CRT technology. One promising advance was adding delay lines to CRT displays to allow you to track the movement of radar targets over time. While at the Telecommunications Research Institute, Frederic C. Williams began researching using cathode ray tubes themselves as a memory storage device, instead of adding a separate delay line in. When Williams accepted a professorship at the University of Manchester, he brought his CRT research with him, along with his his colleague Tom Kilburn.
 
-It was the first entirely electronic memory -- no mechanical structures here!
+## Secondary effects
 
+A conventional CRT displays an image by firing an electron beam at a phosphorescent screen. Two electrostatic plates (or magnets[^1]) steer the beam around, scanning across the entire screen.
 
-## how it works
+{{<figure class="left" src="/images/williams-tube/cathode-ray-tube.png">}}
 
-> It used a cathode ray tube (similar to older televisions!) to store a bit as a dot on the screen's surface. Each dot lasted a fraction of a second before fading, so the information was constantly refreshed.
+The brightness, color, and persistence of the scintillation depends on the type of phosphor on the screen. Depending on the phosphor and the energy of the electron beam, the bright spot lasts from microseconds to several seconds. In normal operation of a CRT, though, once written, the bright spot on the screen can't be detected again electronically.
 
-> Information was read by a metal pickup plate that would detect a change in electrical charge.
+However, if you crank up the energy of the electron beam, the beam knocks a few electrons out of the phosphor. These electrons deposit a little distance away from the bright spot, leaving a little charged bullseye. You can electronically detect the charged area the [secondary emission](https://en.wikipedia.org/wiki/Secondary_emission) leaves behind.
 
-The Williams-Kilburn tube had a metal pickup plate that stood in front of the phosphorescent screen. The electron beam would write a 1 to all the registers on the screen. If there was a 1 written there already, it would do nothing. If there was a 0 there, it would induce a small current in the pickup plate.
+If you coat the surface with a poor conductor, instead of a phosphor, you get an even stronger secondary emission. (TK: check with harold) To read the data, the tube takes advantage of another secondary effect. When the electron beam hits the screen, the secondary emission of electrons induces a small voltage in any conductors near it.  If you place a thin metal surface in front of the surface, the screen and the coating together serve as a capacitor, separated by the glass of the screen. Changes in voltage on the screen induce a change in the screen, as well.
 
-After this destructive read, the beam would rewrite the data back to the screen.
+{{<figure class="left" src="/images/williams-tube/williams-tube.png">}}
 
-## uses
+To write the data, the electron beam sweeps across the face of the tube, turning on and off to represent the binary data. The little charged areas across the screen represent little capacitors that are either charged up or not.
 
-> The MANIAC computer, which did hydrogen bomb design calculations, used 40 of these tubes to store 1024 40-bit numbers.
+To read the data, the electron beam again sweeps across the face of the tube, but stays on through the sweep. This writes a 1 to all the registers on the screen. If there were a 1 written there already, the point of positive charge on the screen gets neutralized, discharging the "capacitor." The pickup screen thus sends a pulse of current. If there were a 0, the screen is charged, and the pickup plate sees no pulse. By noting the pattern of current that comes through the pickup plate, you can determine what bit was stored in the register.
 
-## Punch cards
+{{<figure class="left" src="/images/williams-tube/dot-zero.jpeg" attr="Image courtesy the Computer History Museum.">}}
 
-All right, this was a bit of a bait and switch. Punch cards aren't really a strange storage medium, but they are among the earliest, and have had some fantastic historical applications!
+Williams, on a visit to Bell Labs, saw researchers taking advantage of this effect to cancel out ground echoes in radar by moving the signal from one tube to another. When he came back to the TRE in 1946, he worked on using this method to store digital data, and succeeded storing a single bit. When he and Kilburn moved to Manchester, they worked on developing a tube with slightly more storage capacity.
 
-### Jacquard looms
+## The Manchester Baby
 
-Many early ancestors of computers were controlled by punchcards, or similar mechanisms.
-The ancestor of these machines, in turn, was the Jacqard loom. This loom, which automated the production of elaborately woven textiles, was the first machine to use punch cards as an automated instruction sequence.
+Once they'd built the Williams tube, they wanted to ensure that it'd work as intended in a computer. To demonstrate this, they built the Small Scale Experimental Machine (colloquially known as the Manchester Baby) around the tube.
 
-First -- a bit of background information about weaving patterns and how it can be automated.
+{{<figure class="left" src="/images/williams-tube/baby.JPG">}}
 
-{{<figure class="right medium" src="/images/punch-cards/Warp-and-Weft.gif">}}[^4]
+The Baby consisted of 4 CRTs -- 
 
-Most fabric is woven with 2 sets of yarn that are perpendicular to each other. The first set of threads, the warp, is stretched out over a loom, and the second set, the weft, is passed either over or under the threads of the warp to form the fabric. This over-under means that the operation is easily represented by binary information. Changing the order of the over-under produces different kinds of designs.
+- one for storing 32 32-bit words of RAM,
+- one as an accumulator, 
+- one for storing programs,
+- one for displaying the output or the contents of any of the other tubes. 
+ 
+Williams-Kilburn tubes are an unusually introspectable data storage device!
 
-In the following example of a woven design, the warp is white, and the weft is blue. To weave in a zigzag pattern, the loom raises the first 2 threads, drops the second 2, raises the next 2, and so on, across the warp. Then, the weft is passed through the warp, weaving in the first thread. This is repeated across the next few rows, until we start to see a zigzag pattern appear. (Fun fact -- this diagonal weave is called a twill weave, which is what most denims and chinos are!)
+Programs were entered one word at a time, using a set of 32 switches. The first program run calculated factors for large numbers. Later, Turing later wrote a program that did long division (the Baby could only do subtraction and negation.)
 
-Although weaving can be very intricate, this particular kind has 2 simple operations, repeated according to very specific patterns. Computers excel at simple and repetitive work!
+## Later history
 
-{{<figure class="left" src="/images/punch-cards/weaving.png">}}
+The parts of the Baby were repurposed for the Manchester Mark 1, which was a larger and more functional stored-program computer. The Mark 1 developed into the Ferranti Mark 1, which was the first commercially available general-purpose computer.
 
-Before the Jacquard loom, this process of raising and lowering threads was done by hand, on a drawloom. One person ran by and positioned all the threads for the warp, and another person passed the weft through. This was an incredibly slow and labor-intensive process. A warp might be about 2000 threads wide, so drawing out a detailed pattern in fabric would require making decisions about raising or lowering thousands of threads, thousands of times. A very experienced weaving team might get through a couple of rows every minute, so an inch of fabric would take about a day to produce. For context, a ball gown might take up to 3 yards of fabric, which represents about 100 working days of brocade weaving!
+The Williams-Kilburn was used as RAM and storage in a number of other early computers. The MANIAC computer, which did hydrogen bomb design calculations at Los Alamos, used 40 Williams-Kilburn tubes to store 1024 40-bit numbers.
 
-{{<figure src="/images/punch-cards/portrait.jpg" caption="A portrait of Jacquard woven on a loom." class="medium right">}}
+## Other Resources
 
-Around 1803, Joseph-Marie Jacquard -- who lived in Lyons, France, a city with a huge silk weaving industry -- started building a prototype for a loom that could automate the production of decorated cloth. The Jacquard loom wove elaborate silk patterns by reading patterns off a series of replaceable punched cards. The cards that controlled the mechanism could be chained together, so complex patterns of any length could be programmed in.
+- Tom Kilburn on the development of the tube: http://www.cs.man.ac.uk/CCS/res/res02.htm#e
+- The Manchester Baby (https://www.youtube.com/watch?v=SpqayTc_Gcw)
+- The Nature letter from Williams and Kilburn about the SSEM (http://www.nature.com/physics/looking-back/williams/index.html)
 
-Twill weaves, like the one above, are fairly easy and repeatable patterns, and it's a trivial example of what you could weave on an automated loom. The special power of the Jacquard loom comes from its ability to independently control almost every warp end.[^2] This is pretty insane! You could weave all sorts of very detailed images with a Jacquard loom. The portrait of Joseph-Marie Jacquard is a vivid demonstration of the intricacy of the loom; the image is woven using tens of thousands of punch cards.
-
-{{% figure src="/images/punch-cards/punchcards.jpg" attr="Image courtesy the McCarl Gallery." attrlink="https://mccarlgallery.wordpress.com/2013/03/11/punch-cards-19th-century-coverlet-technology/" %}}
-
-The ability to change the pattern of the loom's weave simply by changing cards was a conceptual precursor to programmable machines. Instead of a looped, unchanging pattern, any arbitrary design could be woven into the fabric, and the same machine could be used for an infinite set of patterns.
-
-This mechanism inspired many other programmable automatons. Charles Babbage's Analytical engine borrowed the idea. (Babbage himself was rumored to have the woven portrait of Jacquard in his house!) Player pianos use punch cards (or punched drums) to produce music. That said, the first commercial use of punch cards for information processing didn't appear until almost 100 years later.
-
-### The 1890 United States Census
-
-In the late 19th century, the U.S. Census Bureau found itself collecting more information than it could manually process. The 1880 census took over 7 years to process, and it was estimated that the 1890 census would take almost twice as long![^3] Spending a decade processing census information meant that the data were obsolete almost immediately after they've been produced!
-
-To cope with the growing population, the census bureau held a competition for a more efficient method to count and process the data. Herman Hollerith produced a punched card tabulating machine for this competition. The tabulating machine enabled much faster processing, and provided many more statistics than were available for earlier years.
-
-{{% figure src="/images/punch-cards/tabulator.jpg" attr="The Hollerith Tabulator." %}}
-
-After the success of the tabulator in the 1890 census, other countries began adopting the technology. Soon, Hollerith's Tabulating Machine Company produced machines for many other industries.
-
-After his death, the Computer Tabulating Recording Company renamed itself to the International Business Machines Corporation, or IBM.
-
-[^1]: sorry for the forced metaphor :/
-[^2]: A nitpick: not all automated looms allow independent control of every warp end. Dobby looms, which appeared about 40 years after the Jacquard device, control groups of threads attached to shafts. Jacquard devices have more shafts than Dobby looms, but don't always allow for control of _every_ thread. [This explanation](http://blog.guilfordofmaine.com/dobby-vs.-jacquard.-a-tale-of-two-looms) differentiates between Dobby looms and Jacquard looms, and includes pretty gifs!
-[^3]: The U.S. Census Bureau describes the [tabulation and processing of the 1880s census](https://www.census.gov/history/www/innovations/technology/tabulation_and_processing.html)
+[^1]: Oscilloscopes and Williams tubes use electrostatic plates, since they have a better frequency response, and so operate faster. The magnetic coils used in television CRTs present an inductive load, so they're harder to drive at high frequencies. That said, televisions use magnetic deflection since the plates obstruct (and distort) the beam when the deflection angle is large, so magnetic deflection is better for large screens. [themoreyouknow.gif]
