@@ -1,7 +1,6 @@
 ---
 date: 2016-07-27
-title: "A History of Storage Media: Williams Tube"
-draft: true
+title: "A History of Storage Media: the Williams-Kilburn Tube"
 tags: [computers, history of technology, storage]
 ---
 
@@ -53,7 +52,7 @@ After Williams' visit to Bell Labs, where he observed researchers using these ef
 
 After the team at Manchester had a working memory tube that stored 1024 bits, they wanted to test the system in a proof-of-concept computer. They had a tube that would store data written to it manually, at slow speeds, but they wanted to test that the whole system would still work when it was written to constantly, at electronic speeds. To demonstrate that the tube worked as computer memory, they built the Small Scale Experimental Machine (colloquially known as the Manchester Baby) as a test bed.
 
-{{<figure class="left" src="/images/williams-tube/baby.JPG">}}
+{{<figure class="left" src="/images/williams-tube/baby.jpg">}}
 
 The Baby consisted of 4 CRTs -- 
 
