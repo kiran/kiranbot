@@ -1,5 +1,5 @@
 ---
-date: 2016-07-27
+date: 2016-08-30
 title: "A History of Storage Media: the Williams-Kilburn Tube"
 tags: [computers, history of technology, storage]
 ---
@@ -16,9 +16,9 @@ With the stage set, let's pick up the story in Manchester (coincidentally, a cit
 
 The first display cathode ray tube was invented just before the turn of the 20th century. These tubes were soon used widely as display units for oscilloscopes and other scientific instrumentation. Soon, cathode ray tubes became the defacto method of displaying electrical information.
 
-During the Second World War, cathode ray tubes became ubiquitous in radar systems, which jump-started research into more advanced CRT technology. For example, researchers added delay lines into radar systems, so the systems could store and filter out out non-moving objects, like buildings and telephone poles.[^delay]
+During the Second World War, cathode ray tubes became ubiquitous in radar systems, which jump-started research into more advanced CRT technology. For example, researchers added delay lines into radar systems, so the systems could store and filter out out non-moving objects at ground level, like buildings and telephone poles.[^delay] Non-moving objects on the ground always return the same signal at the same delay, so if a radar system had memory built in, it could look for and cancel out those obects. This way, a radar screen would only contain moving objects, so the operator would have much less clutter on their screen when looking out for enemy aircraft. 
 
-These early delay line systems were well-suited for conversion into computer memory. One branch of research adapted the delay lines as computer memory (which we'll talk about next post!), and another investigated using the CRTs themselves to store data. A group at Bell Labs attempted to cancel out ground objects by transferring data from one CRT to another.[^ground] During a visit to the labs, Frederic C. Williams learned of this effort, and he and Tom Kilburn attempted to use the same CRT setup to store digital data. When Williams accepted a professorship at the University of Manchester, he brought both his CRT research and Tom Kilburn with him.
+These early delay line systems were well-suited for conversion into computer memory. One branch of research adapted the delay lines as computer memory (which we'll talk about next post!), and another investigated using the CRTs themselves to store data. A group at Bell Labs attempted to filter out non-moving objects by transferring data from one CRT to another.[^ground] During a visit to the labs, Frederic C. Williams learned of this effort, and he and Tom Kilburn attempted to use the same CRT setup to store digital data. When Williams accepted a professorship at the University of Manchester, he brought both his CRT research and Tom Kilburn with him.
 
 ## Secondary effects: principles of operation
 
