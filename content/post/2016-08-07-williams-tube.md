@@ -8,7 +8,7 @@ In the [last post](/post/2016-07-27-punch-cards/), we discussed the fairly ubiqu
 
 {{<figure class="left" src="/images/williams-tube/eniac4.png" caption="Two women wiring a portion of ENIAC with a new program." attr="U.S. Army Photo." attrlink="http://ftp.arl.mil/ftp/historic-computers">}}
 
-While it's possible to build computers using mechanical memory, most mechanical memory systems are slow and fiddly. Developing electronic storage was the next big frontier in computer design.
+While it's possible to build computers using mechanical memory, most mechanical memory systems are slow and fiddly. Developing electronic memory was the next big frontier in computer design.
 
 With the stage set, let's pick up the story in Manchester (coincidentally, a city well-known for its textiles industry!) In the late 1940s, researchers at Manchester University developed the first electronic computer memory, essentially by cobbling together surplus World War II radar parts. By making a few ingenious modifications to a cathode ray tube, Frederic Williams' and Tom Kilburn's lab at Manchester built the first truly reprogrammable computer.
 
