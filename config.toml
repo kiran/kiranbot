@@ -29,7 +29,7 @@ footnotereturnlinkcontents = "↩"
     url = "/tags/computers"
 [[menu.main]]
     name = "Paper Reports"
-    url = "/tags/paper-reports"
+    url = "/tags/papers"
 [[menu.main]]
     name = "Sewing"
     url = "/tags/sewing/"
