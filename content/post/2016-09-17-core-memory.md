@@ -1,6 +1,6 @@
 ---
 date: 2016-09-03
-title: "A History of Storage Media"
+title: "A History of Storage Media: Core Memory"
 draft: true
 tags: [computers, history of technology, storage]
 ---

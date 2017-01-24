@@ -1,6 +1,6 @@
 ---
 date: 2016-09-03
-title: "A History of Storage Media"
+title: "code words"
 draft: true
 tags: [computers, history of technology, storage]
 ---
