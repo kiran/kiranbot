@@ -45,7 +45,7 @@ end
 def export_template(output_file_path, books)
   renderer = ERB.new(File.read("./book_template.erb"))
   File.open(output_file_path, 'w') do |fo|
-    fo.write('<section class="books-list">'+"\n")
+    fo.write('<section id="books-list">'+"\n")
     books.each do |book|
       fo.write(book.render(renderer))
     end
@@ -54,6 +54,6 @@ def export_template(output_file_path, books)
 end
 
 if __FILE__ == $0
-  books = parse_books("2016-books.csv")
+  books = parse_books("goodreads library - 2016-books.csv")
   export_template('books_templated', books)
 end

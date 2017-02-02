@@ -1,4 +1,4 @@
-	<article class="book" class="<%= @tags.join('') %>">
+	<article class="book <%= @tags.join('') %>">
 		<div class="thumb">
 			<img alt="<%= @title %>" title="<%= @title %>" src="/images/2016-books/<%= @isbn %>.jpg" />
 		</div>
@@ -7,6 +7,6 @@
 			<p>
 				<% @rating.times do %>★<% end %>
 			</p>
-			<p><%= @blurb %></p>
+			<p class="blurb"><%= @blurb %></p>
 		</div>
 	</article>

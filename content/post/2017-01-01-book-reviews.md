@@ -10,6 +10,8 @@ menu: main
 title: 2016 Reading Log
 ---
 
+
+
 I moved across the Bay this year, which increased my commute time from 13 minutes to 45-50 minutes every day. This did wonders for how much I read -- I got through about 55 books this year (not counting a few shorter comics!)
 
 This year, I did a bunch of themed reading -- pairing books on surgery (esp. neurosurgery), three books on the rise of modern Islamic terrorism, etc. About 25% of the books I read this year were nonfiction, which is higher than normal for me! About 55% were science fiction or fantasy, which is about par for me.
@@ -18,11 +20,19 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 
 ## Books
 
-- todo: spit out books read this year + blurb to a csv
-- write javascript to filter the books
+### Click to filter
+<section class="filters">
+		<span class="btn" id="faves">Faves</span>
+		<span class="btn" id="nonfiction">Nonfiction</span>
+		<span class="btn" id="literature">Literature</span>
+		<span class="btn" id="science-fiction">Science Fiction</span>
+		<span class="btn" id="fantasy">Fantasy</span>
+		<span class="btn btn-green" id="clear"> ✖ Clear all</span>
+</section>
 
-<section class="books-list">
-	<article class="book" class="fantasy seriously-good-writing faves">
+<p>Showing <span id="count">56</span> out of 56.</p>
+<section id="books-list">
+	<article class="book fantasy seriously-good-writing faves">
 		<div class="thumb">
 			<img alt="The Fifth Season (The Broken Earth, #1)" title="The Fifth Season (The Broken Earth, #1)" src="/images/2016-books/9780316229296.jpg" />
 		</div>
@@ -31,9 +41,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>Jemisin is a fantastic world builder, and the structure of this book is breathtaking. This was a fantastic allegory about race and power, and one of my favorite books this year.</p>
+			<p class="blurb">Jemisin is a fantastic world builder, and the structure of this book is breathtaking. This was a fantastic allegory about race and power, and one of my favorite books this year.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Obelisk Gate (The Broken Earth, #2)" title="The Obelisk Gate (The Broken Earth, #2)" src="/images/2016-books/9780356508368.jpg" />
 		</div>
@@ -42,9 +52,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>The second in the Broken Earth series. While not as breathtaking as the first, it lays out the groundwork for a (hopefully) stunning finale.</p>
+			<p class="blurb">The second in the Broken Earth series. While not as breathtaking as the first, it lays out the groundwork for a (hopefully) stunning finale.</p>
 		</div>
-	</article>	<article class="book" class="faves">
+	</article>	<article class="book faves literature">
 		<div class="thumb">
 			<img alt="The Namesake" title="The Namesake" src="/images/2016-books/9780618485222.jpg" />
 		</div>
@@ -53,9 +63,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>The writing was fluid and gorgeous, and the situations were intensely familiar. I don't know why I didn't read this earlier. This hit me really hard emotionally.</p>
+			<p class="blurb">The writing was fluid and gorgeous, and the situations were intensely familiar. I don't know why I didn't read this earlier. This hit me really hard emotionally.</p>
 		</div>
-	</article>	<article class="book" class="nonfiction terrorism faves">
+	</article>	<article class="book nonfiction terrorism faves">
 		<div class="thumb">
 			<img alt="The Looming Tower: Al-Qaeda and the Road to 9/11" title="The Looming Tower: Al-Qaeda and the Road to 9/11" src="/images/2016-books/9780375414862.jpg" />
 		</div>
@@ -64,9 +74,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>An insanely well-researched book with the pacing of a taut thriller. I can't recommend this enough!</p>
+			<p class="blurb">An insanely well-researched book with the pacing of a taut thriller. I can't recommend this enough!</p>
 		</div>
-	</article>	<article class="book" class="nonfiction terrorism faves">
+	</article>	<article class="book nonfiction terrorism faves">
 		<div class="thumb">
 			<img alt="Black Flags: The Rise of ISIS" title="Black Flags: The Rise of ISIS" src="/images/2016-books/9780804168939.jpg" />
 		</div>
@@ -75,9 +85,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>I started this right after Looming Tower. This picks up almost right after Looming Tower's afterword ends, and follows a set of individuals through the history.</p>
+			<p class="blurb">I started this right after Looming Tower. This picks up almost right after Looming Tower's afterword ends, and follows a set of individuals through the history.</p>
 		</div>
-	</article>	<article class="book" class="nonfiction terrorism">
+	</article>	<article class="book nonfiction terrorism">
 		<div class="thumb">
 			<img alt="ISIS: The State of Terror" title="ISIS: The State of Terror" src="/images/2016-books/9780062395566.jpg" />
 		</div>
@@ -86,9 +96,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>Less focused on individuals than either Black Flags or Looming Tower, but it does focus heavily on ISIS's use of social media to recruit. I found the discussions and contrasts between Facebook and Twitter fascinating. tl;dr: the internet has real world impact, and neutrality is a clear political position.</p>
+			<p class="blurb">Less focused on individuals than either Black Flags or Looming Tower, but it does focus heavily on ISIS's use of social media to recruit. I found the discussions and contrasts between Facebook and Twitter fascinating. tl;dr: the internet has real world impact, and neutrality is a clear political position.</p>
 		</div>
-	</article>	<article class="book" class="science surgery nonfiction faves">
+	</article>	<article class="book science surgery nonfiction faves">
 		<div class="thumb">
 			<img alt="Do No Harm: Stories of Life, Death and Brain Surgery" title="Do No Harm: Stories of Life, Death and Brain Surgery" src="/images/2016-books/9780297869870.jpg" />
 		</div>
@@ -97,9 +107,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>The book opens with a quote by a French surgeon about living with surgical mistakes: “Every surgeon carries within himself a small cemetery, where from time to time he goes to pray.” This stuck with me.</p>
+			<p class="blurb">The book opens with a quote by a French surgeon about living with surgical mistakes: “Every surgeon carries within himself a small cemetery, where from time to time he goes to pray.” This stuck with me, and sets the tone for the rest of this book about an imperfect science.</p>
 		</div>
-	</article>	<article class="book" class="science surgery nonfiction faves">
+	</article>	<article class="book science surgery nonfiction faves">
 		<div class="thumb">
 			<img alt="Complications: A Surgeon's Notes on an Imperfect Science" title="Complications: A Surgeon's Notes on an Imperfect Science" src="/images/2016-books/9780312421700.jpg" />
 		</div>
@@ -108,9 +118,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>An interesting dive into the challenges of surgery, especially with training and continuous learning.</p>
+			<p class="blurb">An interesting dive into the challenges of surgery, especially with training and continuous learning.</p>
 		</div>
-	</article>	<article class="book" class="science surgery nonfiction faves">
+	</article>	<article class="book science surgery nonfiction faves">
 		<div class="thumb">
 			<img alt="When the Air Hits Your Brain: Tales of Neurosurgery" title="When the Air Hits Your Brain: Tales of Neurosurgery" src="/images/2016-books/9780449227138.jpg" />
 		</div>
@@ -119,9 +129,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>I read this simultaneously with Do No Harm. This was written about 20 years before that, and in a different country. Contrasting the differences in neurosurgery between the books made them pair really well.</p>
+			<p class="blurb">I read this simultaneously with Do No Harm. This was written about 20 years before that, and in a different country. Contrasting the differences in neurosurgery between the books made them pair really well.</p>
 		</div>
-	</article>	<article class="book" class="faves">
+	</article>	<article class="book faves literature">
 		<div class="thumb">
 			<img alt="My Brilliant Friend (The Neapolitan Novels #1)" title="My Brilliant Friend (The Neapolitan Novels #1)" src="/images/2016-books/9781609450786.jpg" />
 		</div>
@@ -130,9 +140,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p></p>
+			<p class="blurb">I'm obsessed with the pull of love and envy between the two main characters.</p>
 		</div>
-	</article>	<article class="book" class="faves">
+	</article>	<article class="book faves literature">
 		<div class="thumb">
 			<img alt="The Story of a New Name (The Neapolitan Novels #2)" title="The Story of a New Name (The Neapolitan Novels #2)" src="/images/2016-books/9781609451349.jpg" />
 		</div>
@@ -141,9 +151,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p></p>
+			<p class="blurb">Lila and Elena reach womanhood. The men continue to be terrible.</p>
 		</div>
-	</article>	<article class="book" class="">
+	</article>	<article class="book literature">
 		<div class="thumb">
 			<img alt="Those Who Leave and Those Who Stay (The Neapolitan Novels #3)" title="Those Who Leave and Those Who Stay (The Neapolitan Novels #3)" src="/images/2016-books/9781609452230.jpg" />
 		</div>
@@ -152,9 +162,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>A fun, intense read. Less into this than the second.</p>
+			<p class="blurb">A fun, intense read. Less into this than the second.</p>
 		</div>
-	</article>	<article class="book" class="science nonfiction faves">
+	</article>	<article class="book science nonfiction faves">
 		<div class="thumb">
 			<img alt="The Making of the Atomic Bomb" title="The Making of the Atomic Bomb" src="/images/2016-books/9780684813783.jpg" />
 		</div>
@@ -163,9 +173,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>I finally finished this! I started this book in 2013. This was magnificent! Incredibly long, but it remained compelling through the entire book. The first third captures the delight of discovery really well. The last third, detailing the consequences of the bomb, is difficult to read.</p>
+			<p class="blurb">I finally finished this! I started this book in 2013. This was magnificent! Incredibly long, but it remained compelling through the entire book. The first third captures the delight of discovery really well. The last third, detailing the consequences of the bomb, is difficult to read.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="Deathless (Leningrad Diptych, #1)" title="Deathless (Leningrad Diptych, #1)" src="/images/2016-books/9780765326300.jpg" />
 		</div>
@@ -174,9 +184,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>I loved this retelling of a classic Russian fairytale! The writing's perfect.</p>
+			<p class="blurb">I loved this retelling of a classic Russian fairytale! The writing's perfect.</p>
 		</div>
-	</article>	<article class="book" class="science nonfiction">
+	</article>	<article class="book science nonfiction">
 		<div class="thumb">
 			<img alt="The Mathematical Theory of Communication" title="The Mathematical Theory of Communication" src="/images/2016-books/9780252725487.jpg" />
 		</div>
@@ -185,9 +195,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>Not really a book, but since this paper was 55 pages long, I'm counting it. It's almost (almost) conversationally written!</p>
+			<p class="blurb">Not really a book, but since this paper was 55 pages long, I'm counting it. It's almost (almost) conversationally written!</p>
 		</div>
-	</article>	<article class="book" class="poetry nonfiction">
+	</article>	<article class="book poetry nonfiction">
 		<div class="thumb">
 			<img alt="Citizen: An American Lyric" title="Citizen: An American Lyric" src="/images/2016-books/9781555976903.jpg" />
 		</div>
@@ -196,9 +206,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>I haven't read much poetry before, so I didn't know what to expect. The first half was incredibly compelling.</p>
+			<p class="blurb">I haven't read much poetry before, so I didn't know what to expect. The first half was incredibly compelling.</p>
 		</div>
-	</article>	<article class="book" class="science nonfiction faves">
+	</article>	<article class="book science nonfiction faves">
 		<div class="thumb">
 			<img alt="The Idea Factory: Bell Labs and the Great Age of American Innovation" title="The Idea Factory: Bell Labs and the Great Age of American Innovation" src="/images/2016-books/9781594203282.jpg" />
 		</div>
@@ -207,9 +217,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>It's kind of surprising how much of an impact Bell Labs has had on EECS. This book covers a few of the really momentous changes in electrical and systems engineering. A favorite moment -- the giant mylar balloon that was the world's first communications satellite. The last third of the book drags a little, partially because it covers the era when Bell Labs was mired in legal battles.</p>
+			<p class="blurb">It's kind of surprising how much of an impact Bell Labs has had on EECS. This book covers a few of the really momentous changes in electrical and systems engineering. A favorite moment -- the giant mylar balloon that was the world's first communications satellite. The last third of the book drags a little, partially because it covers the era when Bell Labs was mired in legal battles.</p>
 		</div>
-	</article>	<article class="book" class="nonfiction">
+	</article>	<article class="book nonfiction">
 		<div class="thumb">
 			<img alt="The Complete Persepolis" title="The Complete Persepolis" src="/images/2016-books/9780375714832.jpg" />
 		</div>
@@ -218,9 +228,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Killing Moon (Dreamblood, #1)" title="The Killing Moon (Dreamblood, #1)" src="/images/2016-books/9780356500768.jpg" />
 		</div>
@@ -229,9 +239,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Shadowed Sun (Dreamblood, #2)" title="The Shadowed Sun (Dreamblood, #2)" src="/images/2016-books/9780356500775.jpg" />
 		</div>
@@ -240,20 +250,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>I liked this book better than the first in the duology!</p>
+			<p class="blurb">I liked this book better than the first in the duology!</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
-		<div class="thumb">
-			<img alt="Saga, Volume 1-6" title="Saga, Volume 1-6" src="/images/2016-books/9781607066019.jpg" />
-		</div>
-		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/9781607066019">Saga, Volume 1-6</a> by Brian K. Vaughan</p>
-			<p>
-				★★★★★
-			</p>
-			<p>A fun comics series. The artwork is beautiful, and the story rushes along, completely absurd.</p>
-		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Traitor Baru Cormorant" title="The Traitor Baru Cormorant" src="/images/2016-books/9780765380722.jpg" />
 		</div>
@@ -262,9 +261,10 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>I'm so conflicted about this. I've read many reviews that both love and are horrified by this book. I agree that it's playing the queer tragedy trope poorly. The main character's an accountant who joins the civil service of a colonial power in order to subvert it. I <3 everything about that premise, and I love the sheer amount of foreshadowing in the book. The author does a really good job of imposing a sense of doom over the whole story, and when the blow finally lands, it hurts no less for how expected it is.</p>
+			<p class="blurb">I'm so conflicted about this. I've read many reviews that both love and are horrified by this book. I agree that it's playing the queer tragedy trope poorly.
+The main character's an accountant who joins the civil service of a colonial power in order to subvert it. I <3 everything about that premise, and I love the sheer amount of foreshadowing in the book. The author does a really good job of imposing a sense of doom over the whole story, and when the blow finally lands, it hurts no less for how expected it is.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="Uprooted" title="Uprooted" src="/images/2016-books/9780804179034.jpg" />
 		</div>
@@ -273,9 +273,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>Good YA fantasy! I really liked the world, and got fairly invested in the characters.</p>
+			<p class="blurb">Good YA fantasy! I really liked the world, and got fairly invested in the characters.</p>
 		</div>
-	</article>	<article class="book" class="nonfiction">
+	</article>	<article class="book nonfiction">
 		<div class="thumb">
 			<img alt="Just Mercy: A Story of Justice and Redemption" title="Just Mercy: A Story of Justice and Redemption" src="/images/2016-books/9780812994520.jpg" />
 		</div>
@@ -284,9 +284,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="">
+	</article>	<article class="book literature">
 		<div class="thumb">
 			<img alt="How to Build a Girl" title="How to Build a Girl" src="/images/2016-books/62335979.jpg" />
 		</div>
@@ -295,9 +295,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>Captures being a teenage girl fantastically well.</p>
+			<p class="blurb">Captures being a teenage girl fantastically well.</p>
 		</div>
-	</article>	<article class="book" class="science fiction seriously-good-writing">
+	</article>	<article class="book science-fiction seriously-good-writing">
 		<div class="thumb">
 			<img alt="Radiance" title="Radiance" src="/images/2016-books/9780765335296.jpg" />
 		</div>
@@ -306,9 +306,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>This book is set in an alternate universe solar system, as imagined from the 1920s. I love retrofuturism, and the lush deco worlds of this system was delightful.</p>
+			<p class="blurb">This book is set in an alternate universe solar system, as imagined from the 1920s. I love retrofuturism, and the lush deco worlds of this system was delightful.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="Sabriel (Abhorsen,  #1)" title="Sabriel (Abhorsen,  #1)" src="/images/2016-books/9780064471831.jpg" />
 		</div>
@@ -317,9 +317,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p>reread! I still really love this series. The audiobook is narrated by Tim Curry, which was delightful. <3 Sabriel's a well-balanced and interesting character, and while a little overpowered, there's definitely room for growth. The characters are a bit flat, and don't develop all that much, but the world and my nostalgia for the book more than makes up for that.</p>
+			<p class="blurb">reread! I still really love this series. The audiobook is narrated by Tim Curry, which was delightful. <3 Sabriel's a well-balanced and interesting character, and while a little overpowered, there's definitely room for growth. The characters are a bit flat, and don't develop all that much, but the world and my nostalgia for the book more than makes up for that.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="Lirael (Abhorsen, #2)" title="Lirael (Abhorsen, #2)" src="/images/2016-books/9780060590161.jpg" />
 		</div>
@@ -328,9 +328,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>reread! I don't like Lirael as much as a character, but I did enjoy getting a peek into the Clayr's realm, and learning more about the Charter's beginnings.</p>
+			<p class="blurb">reread! I don't like Lirael as much as a character, but I did enjoy getting a peek into the Clayr's realm, and learning more about the Charter's beginnings.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="Abhorsen (Abhorsen, #3)" title="Abhorsen (Abhorsen, #3)" src="/images/2016-books/9780060278250.jpg" />
 		</div>
@@ -339,9 +339,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>reread! This (mostly) makes up for Lirael. Nostalgia fave, honestly.</p>
+			<p class="blurb">reread! This (mostly) makes up for Lirael. Nostalgia fave, honestly.</p>
 		</div>
-	</article>	<article class="book" class="">
+	</article>	<article class="book literature">
 		<div class="thumb">
 			<img alt="The Underground Railroad" title="The Underground Railroad" src="/images/2016-books/9780385542364.jpg" />
 		</div>
@@ -350,9 +350,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Hyperion (Hyperion Cantos, #1)" title="Hyperion (Hyperion Cantos, #1)" src="/images/2016-books/9780553283686.jpg" />
 		</div>
@@ -361,9 +361,9 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>Neat world, neat story structure. I enjoyed it, but wasn't super thrilled with the female characters/some of the cornier stereotypes. I had to power through the poet's tale.</p>
+			<p class="blurb">Neat world, neat story structure. I enjoyed it, but wasn't super thrilled with the female characters/some of the cornier stereotypes. I had to power through the poet's tale.</p>
 		</div>
-	</article>	<article class="book" class="seriously-good-writing">
+	</article>	<article class="book seriously-good-writing literature">
 		<div class="thumb">
 			<img alt="The Days of Abandonment" title="The Days of Abandonment" src="/images/2016-books/9781933372006.jpg" />
 		</div>
@@ -372,10 +372,10 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★
 			</p>
-			<p>An intense read. Emotionally unsparing, and hits its stride about a quarter of the way through. The writing's really evocative, and it's not easy to read on public transit.
+			<p class="blurb">An intense read. Emotionally unsparing, and hits its stride about a quarter of the way through. The writing's really evocative, and it's not easy to read on public transit.
 I'm not super satisfied with the ending, and some of the symbolism is heavy-handed.</p>
 		</div>
-	</article>	<article class="book" class="nonfiction">
+	</article>	<article class="book nonfiction">
 		<div class="thumb">
 			<img alt="The Unwinding: An Inner History of the New America" title="The Unwinding: An Inner History of the New America" src="/images/2016-books/9781466836952.jpg" />
 		</div>
@@ -384,9 +384,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★★
 			</p>
-			<p>Tells the history of the U.S. economy from the 80s to now through a few characters. This was a really gripping read!</p>
+			<p class="blurb">Tells the history of the U.S. economy from the 80s to now through a few characters. This was a really gripping read!</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Caliban's War (Expanse, #2)" title="Caliban's War (Expanse, #2)" src="/images/2016-books/9781841499901.jpg" />
 		</div>
@@ -395,9 +395,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p>I enjoyed this more than Leviathan Wakes. There's a tiny bit more effort put into the characterization, and there's a lot of discussion about the consequences of truth.</p>
+			<p class="blurb">I enjoyed this more than Leviathan Wakes. There's a tiny bit more effort put into the characterization, and there's a lot of discussion about the consequences of truth.</p>
 		</div>
-	</article>	<article class="book" class="">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Eyre Affair (Thursday Next, #1)" title="The Eyre Affair (Thursday Next, #1)" src="/images/2016-books/9780142001806.jpg" />
 		</div>
@@ -406,9 +406,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb">A fun, absurd read!</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Never Let Me Go" title="Never Let Me Go" src="/images/2016-books/9781400078776.jpg" />
 		</div>
@@ -417,9 +417,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p>oh gosh, Ruth's casual cruelty is breathtaking. It's definitely a page turner. Beyond that, I wish I'd been given more of the world. It's a little disappointing that it's such a vaguely sketched out universe.</p>
+			<p class="blurb">oh gosh, Ruth's casual cruelty is breathtaking. It's definitely a page turner. Beyond that, I wish I'd been given more of the world. It's a little disappointing that it's such a vaguely sketched out universe.</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Barrayar" title="Barrayar" src="/images/2016-books/9780743468411.jpg" />
 		</div>
@@ -428,9 +428,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p>The second in the Vorkosigan Saga (or not, depending on how you count.) Cordelia's a fantastic character, but I'm not sure I want to keep reading.</p>
+			<p class="blurb">The second in the Vorkosigan Saga (or not, depending on how you count.) Cordelia's a fantastic character, but I'm not sure I want to keep reading.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="Monstress, Volume 1: Awakening" title="Monstress, Volume 1: Awakening" src="/images/2016-books/9781632157096.jpg" />
 		</div>
@@ -439,9 +439,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p>GORGEOUS artwork. Sarcastic cat magiacians (nekomancers!!)</p>
+			<p class="blurb">GORGEOUS artwork. Sarcastic cat magicians (nekomancers!!)</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Kindred" title="Kindred" src="/images/2016-books/9780807083697.jpg" />
 		</div>
@@ -450,9 +450,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Spin (Spin, #1)" title="Spin (Spin, #1)" src="/images/2016-books/9780765348258.jpg" />
 		</div>
@@ -461,9 +461,20 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
+		<div class="thumb">
+			<img alt="Saga, Volume 1-6" title="Saga, Volume 1-6" src="/images/2016-books/9781607066019.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/9781607066019">Saga, Volume 1-6</a> by Brian K. Vaughan</p>
+			<p>
+				★★★★★
+			</p>
+			<p class="blurb">A fun comics series. The artwork is beautiful, and the story rushes along, completely absurd.</p>
+		</div>
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Babel-17" title="Babel-17" src="/images/2016-books/9780839823285.jpg" />
 		</div>
@@ -472,9 +483,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="nonfiction science">
+	</article>	<article class="book nonfiction science">
 		<div class="thumb">
 			<img alt="The Gene: An Intimate History" title="The Gene: An Intimate History" src="/images/2016-books/9781476733500.jpg" />
 		</div>
@@ -483,9 +494,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p>I _loved_ Emperor of All Maladies, and was excited for this followup. It's skillfully written, but not as gripping as Emperor.</p>
+			<p class="blurb">I _loved_ Emperor of All Maladies, and was excited for this followup. It's skillfully written, but not as gripping as Emperor.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="A Darker Shade of Magic (Shades of Magic, #1)" title="A Darker Shade of Magic (Shades of Magic, #1)" src="/images/2016-books/9780765376459.jpg" />
 		</div>
@@ -494,9 +505,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="nonfiction">
+	</article>	<article class="book nonfiction">
 		<div class="thumb">
 			<img alt="The Ghost Map: The Story of London's Most Terrifying Epidemic - and How It Changed Science, Cities, and the Modern World" title="The Ghost Map: The Story of London's Most Terrifying Epidemic - and How It Changed Science, Cities, and the Modern World" src="/images/2016-books/9781594489259.jpg" />
 		</div>
@@ -505,9 +516,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Ninefox Gambit (The Machineries of Empire, #1)" title="Ninefox Gambit (The Machineries of Empire, #1)" src="/images/2016-books/9781781084496.jpg" />
 		</div>
@@ -516,9 +527,20 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p>I enjoyed the first third a ton (what a weird world!), and the characters buoyed me through the rest.</p>
+			<p class="blurb">I enjoyed the first third a ton (what a weird world!), and the characters buoyed me through the rest.</p>
 		</div>
-	</article>	<article class="book" class="">
+	</article>	<article class="book literature">
+		<div class="thumb">
+			<img alt="Copenhagen" title="Copenhagen" src="/images/2016-books/9780385720793.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/">Copenhagen</a> by Michael Frayn</p>
+			<p>
+				★★★★★
+			</p>
+			<p class="blurb">A play about the fateful meeting between Bohr and Heisenberg in 1941. There are many interpretations about exactly what happened that day, and this play retells several. I love the Rashomon-esque exploration of truth and memory.</p>
+		</div>
+	</article>	<article class="book literature">
 		<div class="thumb">
 			<img alt="Disgraced" title="Disgraced" src="/images/2016-books/9781472532091.jpg" />
 		</div>
@@ -527,9 +549,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p></p>
+			<p class="blurb">A taut one-act play. I have mixed feelings about this one.</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="The Long Way to a Small, Angry Planet (Wayfarers, #1)" title="The Long Way to a Small, Angry Planet (Wayfarers, #1)" src="/images/2016-books/9781500453305.jpg" />
 		</div>
@@ -538,9 +560,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p>A guilty pleasure -- it's fun, feel-good space opera, where all the characters in the crew are equally important. It's kind of a first novel otherwise, though.</p>
+			<p class="blurb">A guilty pleasure -- it's fun, feel-good space opera, where all the characters in the crew are equally important. It's kind of a first novel otherwise, though.</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="The Clockwork Rocket (Orthogonal Trilogy #1)" title="The Clockwork Rocket (Orthogonal Trilogy #1)" src="/images/2016-books/9780575095113.jpg" />
 		</div>
@@ -549,9 +571,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Just City (Thessaly, #1)" title="The Just City (Thessaly, #1)" src="/images/2016-books/9780765332660.jpg" />
 		</div>
@@ -560,9 +582,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="">
+	</article>	<article class="book literature">
 		<div class="thumb">
 			<img alt="This Is How You Lose Her" title="This Is How You Lose Her" src="/images/2016-books/9781594487361.jpg" />
 		</div>
@@ -571,9 +593,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="">
+	</article>	<article class="book literature">
 		<div class="thumb">
 			<img alt="Crazy Rich Asians (Crazy Rich Asians #1)" title="Crazy Rich Asians (Crazy Rich Asians #1)" src="/images/2016-books/9780385536974.jpg" />
 		</div>
@@ -582,9 +604,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p>Over the top, and the characters didn't *communicate*, which is one of my least favorite plot devices. Still kinda fun, though.</p>
+			<p class="blurb">Over the top, and the characters didn't *communicate*, which is one of my least favorite plot devices. Still kinda fun, though.</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Red Mars (Mars Trilogy, #1)" title="Red Mars (Mars Trilogy, #1)" src="/images/2016-books/9780553560732.jpg" />
 		</div>
@@ -593,9 +615,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p>A great world ruined by frustrating, archetypal characters. Not the biggest fan.</p>
+			<p class="blurb">A great world ruined by frustrating, archetypal characters. Not the biggest fan.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Hundred Thousand Kingdoms (Inheritance, #1)" title="The Hundred Thousand Kingdoms (Inheritance, #1)" src="/images/2016-books/9780316043915.jpg" />
 		</div>
@@ -604,9 +626,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p>Not my favorite NK Jemisin. Things mostly happen to the main character, and I wasn't entirely gripped by any of the gods. I might not read the rest of the series.</p>
+			<p class="blurb">Not my favorite NK Jemisin. Things mostly happen to the main character, and I wasn't entirely gripped by any of the gods. I might not read the rest of the series.</p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Dawn (Xenogenesis, #1)" title="Dawn (Xenogenesis, #1)" src="/images/2016-books/9780446603775.jpg" />
 		</div>
@@ -615,9 +637,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p></p>
+			<p class="blurb"></p>
 		</div>
-	</article>	<article class="book" class="science fiction">
+	</article>	<article class="book science-fiction">
 		<div class="thumb">
 			<img alt="Love Minus Eighty" title="Love Minus Eighty" src="/images/2016-books/9780316217781.jpg" />
 		</div>
@@ -626,20 +648,9 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p></p>
+			<p class="blurb">An interesting premise and world, but the plot didn't really click for me. I'm not positive why.</p>
 		</div>
-	</article>	<article class="book" class="fantasy">
-		<div class="thumb">
-			<img alt="The House of Aunts" title="The House of Aunts" src="/images/2016-books/na.jpg" />
-		</div>
-		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/na">The House of Aunts</a> by Zen Cho</p>
-			<p>
-				★★★
-			</p>
-			<p></p>
-		</div>
-	</article>	<article class="book" class="fantasy">
+	</article>	<article class="book fantasy">
 		<div class="thumb">
 			<img alt="The Name of the Wind (The Kingkiller Chronicle, #1)" title="The Name of the Wind (The Kingkiller Chronicle, #1)" src="/images/2016-books/9780756404079.jpg" />
 		</div>
@@ -648,9 +659,12 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★
 			</p>
-			<p>Interesting world (especially the mechanism for magic!), but a totally overpowered protagonist. Maybe this is because he's telling the story of his own life, and embellishing it somewhat. You can get away with a lot of lazy stereotypes when you have an arrogant unreliable narrator doing most of the book in first person. Also, I kind of found the emotions a little flat, but that might be because I'm coming off the intense emotions of the Neapolitan cycle, and everything's flat after Elena Ferrante. After the 10000th time Kvothe ends up in mortal danger, it doesn't really mean anything, since you know he'll get through it. Also, something about the way Kvothe describes women is irritating. I know it's probably just Kvothe, but I'm not really here for that. Not sure I want to read the second book.</p>
+			<p class="blurb">Interesting world (especially the mechanism for magic!), but a totally overpowered protagonist. Maybe this is because he's telling the story of his own life, and embellishing it somewhat. You can get away with a lot of lazy stereotypes when you have an arrogant unreliable narrator doing most of the book in first person. Also, I kind of found the emotions a little flat, but that might be because I'm coming off the intense emotions of the Neapolitan cycle, and everything's flat after Elena Ferrante. After the 10000th time Kvothe ends up in mortal danger, it doesn't really mean anything, since you know he'll get through it. Also, something about the way Kvothe describes women is irritating. I know it's probably just Kvothe, but I'm not really here for that. Not sure I want to read the second book.</p>
 		</div>
-	</article>
-</section>
-
+	</article></section>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="/js/books_filter.js"></script>
 <script src="/js/books_filter.js"></script>
