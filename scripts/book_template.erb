@@ -1,0 +1,12 @@
+	<article class="book <%= @tags.join('') %>">
+		<div class="thumb">
+			<img alt="<%= @title %>" title="<%= @title %>" src="/images/2016-books/<%= @isbn %>.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/<%= @isbn %>"><%= @title %></a> by <%= @author %></p>
+			<p>
+				<% @rating.times do %>★<% end %>
+			</p>
+			<p class="blurb"><%= @blurb %></p>
+		</div>
+	</article>
