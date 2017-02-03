@@ -10,17 +10,19 @@ menu: main
 title: 2016 Reading Log
 ---
 
+I moved across the Bay this year, which increased my commute time from 13 minutes to 45-50 minutes every day. This did wonders for how much I read -- I got through about 55 books this year (not counting a few shorter comics!), compared to 37 last year.
 
+This year, I did a bunch of themed reading -- pairing books on surgery (esp. neurosurgery), three books on the rise of modern Islamic terrorism, etc. About 25% of the books I read this year were nonfiction, which is higher than normal for me. Interestingly, most of the books I really really enjoyed this year were nonfiction. Maybe I should make an effort to reach for more next year!
 
-I moved across the Bay this year, which increased my commute time from 13 minutes to 45-50 minutes every day. This did wonders for how much I read -- I got through about 55 books this year (not counting a few shorter comics!)
+About 55% were science fiction or fantasy, which is about par for me. Though I didn't really make a conscious effort of it, I wanted to read more books that weren't by white men. About 43% of the books I read were by women, and 38% were by people of color, which were higher numbers than I'd expected! I did read a lot of NK Jemisin this year.
 
-This year, I did a bunch of themed reading -- pairing books on surgery (esp. neurosurgery), three books on the rise of modern Islamic terrorism, etc. About 25% of the books I read this year were nonfiction, which is higher than normal for me! About 55% were science fiction or fantasy, which is about par for me.
+This list is organized in order of how much I liked it (favorites at top!) Also, I'd love feedback on this format -- is this easier to parse than a long list? I find it easier to scan, but harder to read the reviews. It was definitely more fun to put together!
 
 For a different view, Goodreads has a great [year in review](https://www.goodreads.com/user/year_in_books/2016/).
 
 ## Books
 
-### Click to filter
+Click to filter. (Filters do not stack.)
 <section class="filters">
 		<span class="btn" id="faves">Faves</span>
 		<span class="btn" id="nonfiction">Nonfiction</span>
@@ -81,11 +83,11 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<img alt="Black Flags: The Rise of ISIS" title="Black Flags: The Rise of ISIS" src="/images/2016-books/9780804168939.jpg" />
 		</div>
 		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/9780804168939">Black Flags: The Rise of ISIS</a> by Joby Warwick</p>
+			<p><a href="https://www.goodreads.com/book/isbn/9780804168939">Black Flags: The Rise of ISIS</a> by Joby Warrick</p>
 			<p>
 				★★★★★
 			</p>
-			<p class="blurb">I started this right after Looming Tower. This picks up almost right after Looming Tower's afterword ends, and follows a set of individuals through the history.</p>
+			<p class="blurb">I started this right after Looming Tower. This picks up right after Looming Tower's afterword, and follows a set of individuals through the history of ISIS. It's a very compelling read, and deserving of the Pulitzer.</p>
 		</div>
 	</article>	<article class="book nonfiction terrorism">
 		<div class="thumb">
@@ -228,7 +230,7 @@ For a different view, Goodreads has a great [year in review](https://www.goodrea
 			<p>
 				★★★★★
 			</p>
-			<p class="blurb"></p>
+			<p class="blurb">Hm, I read a lot of books about consent this year. Premise: teach Apollo a thing about consent. I like the idea, but it didn't quite gel for me. I think I value a little more subtlety?</p>
 		</div>
 	</article>	<article class="book fantasy">
 		<div class="thumb">
@@ -284,7 +286,7 @@ The main character's an accountant who joins the civil service of a colonial pow
 			<p>
 				★★★★
 			</p>
-			<p class="blurb"></p>
+			<p class="blurb">Stories from a lawyer defending death row cases. Surprisingly hopeful for such a grim topic.</p>
 		</div>
 	</article>	<article class="book literature">
 		<div class="thumb">
@@ -350,7 +352,7 @@ The main character's an accountant who joins the civil service of a colonial pow
 			<p>
 				★★★★
 			</p>
-			<p class="blurb"></p>
+			<p class="blurb">"Station by station, he builds a physical landscape out of the chronology of African-American history." I read this for a book club, which really enhanced the experience! The <a href="http://www.newyorker.com/magazine/2016/08/22/the-perilous-lure-of-the-underground-railroad">New Yorker</a> review really piqued my interest in it.</p>
 		</div>
 	</article>	<article class="book science-fiction">
 		<div class="thumb">
@@ -410,17 +412,6 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 		</div>
 	</article>	<article class="book science-fiction">
 		<div class="thumb">
-			<img alt="Never Let Me Go" title="Never Let Me Go" src="/images/2016-books/9781400078776.jpg" />
-		</div>
-		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/9781400078776">Never Let Me Go</a> by Kazuo Ishiguro</p>
-			<p>
-				★★★
-			</p>
-			<p class="blurb">oh gosh, Ruth's casual cruelty is breathtaking. It's definitely a page turner. Beyond that, I wish I'd been given more of the world. It's a little disappointing that it's such a vaguely sketched out universe.</p>
-		</div>
-	</article>	<article class="book science-fiction">
-		<div class="thumb">
 			<img alt="Barrayar" title="Barrayar" src="/images/2016-books/9780743468411.jpg" />
 		</div>
 		<div class="book-txt">
@@ -450,18 +441,7 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p class="blurb"></p>
-		</div>
-	</article>	<article class="book science-fiction">
-		<div class="thumb">
-			<img alt="Spin (Spin, #1)" title="Spin (Spin, #1)" src="/images/2016-books/9780765348258.jpg" />
-		</div>
-		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/9780765348258">Spin (Spin, #1)</a> by Robert Charles Wilson</p>
-			<p>
-				★★★★
-			</p>
-			<p class="blurb"></p>
+			<p class="blurb">Emotionally effective, and a fantastic, horrifying tale.</p>
 		</div>
 	</article>	<article class="book science-fiction">
 		<div class="thumb">
@@ -483,7 +463,7 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p class="blurb"></p>
+			<p class="blurb">Sapir-Whorf like whoa. My first Samuel Delany (gasp!)</p>
 		</div>
 	</article>	<article class="book nonfiction science">
 		<div class="thumb">
@@ -494,7 +474,7 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p class="blurb">I _loved_ Emperor of All Maladies, and was excited for this followup. It's skillfully written, but not as gripping as Emperor.</p>
+			<p class="blurb">I loved Emperor of All Maladies, and was excited for this followup. It's skillfully written, but not as gripping as Emperor.</p>
 		</div>
 	</article>	<article class="book fantasy">
 		<div class="thumb">
@@ -505,7 +485,7 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p class="blurb"></p>
+			<p class="blurb">Great world, great potential, but left me wanting more character development. Maybe the sequel delivers!</p>
 		</div>
 	</article>	<article class="book nonfiction">
 		<div class="thumb">
@@ -516,7 +496,7 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★★
 			</p>
-			<p class="blurb"></p>
+			<p class="blurb">A story of the birth of epidemiology (and information design!), told through the tale of one cholera outbreak in London.</p>
 		</div>
 	</article>	<article class="book science-fiction">
 		<div class="thumb">
@@ -534,11 +514,44 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<img alt="Copenhagen" title="Copenhagen" src="/images/2016-books/9780385720793.jpg" />
 		</div>
 		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/">Copenhagen</a> by Michael Frayn</p>
+			<p><a href="https://www.goodreads.com/book/isbn/9780385720793">Copenhagen</a> by Michael Frayn</p>
 			<p>
 				★★★★★
 			</p>
 			<p class="blurb">A play about the fateful meeting between Bohr and Heisenberg in 1941. There are many interpretations about exactly what happened that day, and this play retells several. I love the Rashomon-esque exploration of truth and memory.</p>
+		</div>
+	</article>	<article class="book science-fiction">
+		<div class="thumb">
+			<img alt="Dawn (Xenogenesis, #1)" title="Dawn (Xenogenesis, #1)" src="/images/2016-books/9780446603775.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/9780446603775">Dawn (Xenogenesis, #1)</a> by Octavia E. Butler</p>
+			<p>
+				★★★
+			</p>
+			<p class="blurb">Fantastic (and creepy) exploration of consent. The writing felt a little flat, but worth it for the story. Slight niggles about some gender tropes.</p>
+		</div>
+	</article>	<article class="book literature">
+		<div class="thumb">
+			<img alt="This Is How You Lose Her" title="This Is How You Lose Her" src="/images/2016-books/9781594487361.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/9781594487361">This Is How You Lose Her</a> by Junot Díaz</p>
+			<p>
+				★★★
+			</p>
+			<p class="blurb"></p>
+		</div>
+	</article>	<article class="book science-fiction">
+		<div class="thumb">
+			<img alt="Red Mars (Mars Trilogy, #1)" title="Red Mars (Mars Trilogy, #1)" src="/images/2016-books/9780553560732.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/9780553560732">Red Mars (Mars Trilogy, #1)</a> by Kim Stanley Robinson</p>
+			<p>
+				★★★
+			</p>
+			<p class="blurb">A great world ruined by frustrating, archetypal characters. Not the biggest fan.</p>
 		</div>
 	</article>	<article class="book literature">
 		<div class="thumb">
@@ -564,6 +577,28 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 		</div>
 	</article>	<article class="book science-fiction">
 		<div class="thumb">
+			<img alt="Spin (Spin, #1)" title="Spin (Spin, #1)" src="/images/2016-books/9780765348258.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/9780765348258">Spin (Spin, #1)</a> by Robert Charles Wilson</p>
+			<p>
+				★★★★
+			</p>
+			<p class="blurb">Enjoyed the science fiction, but found the characters slightly grating.</p>
+		</div>
+	</article>	<article class="book science-fiction">
+		<div class="thumb">
+			<img alt="Never Let Me Go" title="Never Let Me Go" src="/images/2016-books/9781400078776.jpg" />
+		</div>
+		<div class="book-txt">
+			<p><a href="https://www.goodreads.com/book/isbn/9781400078776">Never Let Me Go</a> by Kazuo Ishiguro</p>
+			<p>
+				★★★
+			</p>
+			<p class="blurb">oh gosh, Ruth's casual cruelty is breathtaking. It's definitely a page turner. Beyond that, I wish I'd been given more of the world. It's a little disappointing that it's such a vaguely sketched out universe.</p>
+		</div>
+	</article>	<article class="book science-fiction">
+		<div class="thumb">
 			<img alt="The Clockwork Rocket (Orthogonal Trilogy #1)" title="The Clockwork Rocket (Orthogonal Trilogy #1)" src="/images/2016-books/9780575095113.jpg" />
 		</div>
 		<div class="book-txt">
@@ -582,18 +617,7 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p class="blurb"></p>
-		</div>
-	</article>	<article class="book literature">
-		<div class="thumb">
-			<img alt="This Is How You Lose Her" title="This Is How You Lose Her" src="/images/2016-books/9781594487361.jpg" />
-		</div>
-		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/9781594487361">This Is How You Lose Her</a> by Junot Díaz</p>
-			<p>
-				★★★
-			</p>
-			<p class="blurb"></p>
+			<p class="blurb">Hm, I read a lot of books about consent this year. Premise: teach Apollo a thing about consent. I like the idea, but it didn't quite gel for me. I can't quite put my finger on why -- maybe I value a little more subtlety?</p>
 		</div>
 	</article>	<article class="book literature">
 		<div class="thumb">
@@ -604,18 +628,7 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 			<p>
 				★★★
 			</p>
-			<p class="blurb">Over the top, and the characters didn't *communicate*, which is one of my least favorite plot devices. Still kinda fun, though.</p>
-		</div>
-	</article>	<article class="book science-fiction">
-		<div class="thumb">
-			<img alt="Red Mars (Mars Trilogy, #1)" title="Red Mars (Mars Trilogy, #1)" src="/images/2016-books/9780553560732.jpg" />
-		</div>
-		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/9780553560732">Red Mars (Mars Trilogy, #1)</a> by Kim Stanley Robinson</p>
-			<p>
-				★★★
-			</p>
-			<p class="blurb">A great world ruined by frustrating, archetypal characters. Not the biggest fan.</p>
+			<p class="blurb">Over the top, and the characters didn't communicate, which is one of my least favorite plot devices. Still kinda fun, though.</p>
 		</div>
 	</article>	<article class="book fantasy">
 		<div class="thumb">
@@ -627,17 +640,6 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
 				★★★
 			</p>
 			<p class="blurb">Not my favorite NK Jemisin. Things mostly happen to the main character, and I wasn't entirely gripped by any of the gods. I might not read the rest of the series.</p>
-		</div>
-	</article>	<article class="book science-fiction">
-		<div class="thumb">
-			<img alt="Dawn (Xenogenesis, #1)" title="Dawn (Xenogenesis, #1)" src="/images/2016-books/9780446603775.jpg" />
-		</div>
-		<div class="book-txt">
-			<p><a href="https://www.goodreads.com/book/isbn/9780446603775">Dawn (Xenogenesis, #1)</a> by Octavia E. Butler</p>
-			<p>
-				★★★
-			</p>
-			<p class="blurb"></p>
 		</div>
 	</article>	<article class="book science-fiction">
 		<div class="thumb">
@@ -667,4 +669,4 @@ I'm not super satisfied with the ending, and some of the symbolism is heavy-hand
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="/js/books_filter.js"></script>
-<script src="/js/books_filter.js"></script>
+<script src="/js/readmore.min.js"></script>

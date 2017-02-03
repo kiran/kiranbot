@@ -106,8 +106,7 @@ a:focus {
     -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    align-items: flex-start;
-   justify-content: space-around;
+    align-items: stretch;
 }
 
 article.book {
@@ -116,7 +115,6 @@ article.book {
   background-color: #fff;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
-  flex-grow: 1;
 }
 
 article.book img {
@@ -128,6 +126,16 @@ article.book img {
 
 article.book .book-txt {
   padding: 10px;
+  max-height: 12em;
+  overflow: hidden;
+}
+
+article.book .book-txt .blurb {
+  display: flex;
+}
+
+.morelink {
+  padding: 5px;
 }
 
 .btn {
@@ -151,14 +159,18 @@ article.book .book-txt {
     transition: all .2s ease-in-out;
     color: #fff;
     background-color: #ac4142;
-    border-color: #ac4142;
     cursor: pointer;
     cursor: hand;
 }
 
 .btn-green {
-  border-color: #5cb85c;
-  background-color: #5cb85c;
+  border-color: #348A34;
+  background-color: #1A6D1A;
+}
+
+.btn.active {
+    background-color: #8A3465;
+    border-color: #6D1A49;
 }
 
 .morecontent span {
