@@ -172,10 +172,3 @@ article.book .book-txt .blurb {
     background-color: #8A3465;
     border-color: #6D1A49;
 }
-
-.morecontent span {
-    display: none;
-}
-.morelink {
-    display: block;
-}
