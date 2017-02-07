@@ -12,7 +12,7 @@ title: 2016 Reading Log
 
 I moved across the Bay this year, which increased my commute time from 13 minutes to 45-50 minutes every day. This did wonders for how much I read -- I got through about 55 books this year (not counting a few shorter comics!), compared to 37 last year.
 
-This year, I did a bunch of themed reading -- pairing books on surgery (esp. neurosurgery), three books on the rise of modern Islamic terrorism, etc. About 25% of the books I read this year were nonfiction, which is higher than normal for me. Interestingly, most of the books I really really enjoyed this year were nonfiction. Maybe I should make an effort to reach for more next year!
+This year, I did a bunch of themed reading -- pairing books on surgery (esp. neurosurgery), three books on the rise of modern radical Islamic terrorism, etc. About 25% of the books I read this year were nonfiction, which is higher than normal for me. Interestingly, most of the books I really really enjoyed this year were nonfiction. Maybe I should make an effort to reach for more next year!
 
 About 55% were science fiction or fantasy, which is about par for me. Though I didn't really make a conscious effort of it, I wanted to read more books that weren't by white men. About 43% of the books I read were by women, and 38% were by people of color, which were higher numbers than I'd expected! I did read a lot of NK Jemisin this year.
 
