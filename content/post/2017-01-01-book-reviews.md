@@ -6,7 +6,6 @@ Tags:
 - media
 - books
 date: 2017-01-01T14:46:34-08:00
-menu: main
 title: 2016 Reading Log
 ---
 
