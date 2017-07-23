@@ -22,6 +22,3 @@ I also gave this talk at Stripe's Lightning Talks and Pies event, a few months l
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QxtwVsHxvC4rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## !!Con 2015: Bending the Laws of Physics! Or, How Wi-Fi Keeps Getting Faster.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tg_8H0TdpOc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-<script async class="speakerdeck-embed" data-id="263bb07ecda54da39da8a718d9619138" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
