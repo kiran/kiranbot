@@ -5,13 +5,19 @@ draft: true
 tags: [sewing, patternmaking]
 ---
 
-- classes at Apparel Arts
-  - blurb about what apparel arts is, and their 2-year certification program
-  - self-paced patternmaking classes: skirts, moulage, etc.
+Last August, I started taking [pattern drafting courses at Apparel Arts](https://www.apparel-arts.com/certificate-program/), and I figured I'd write a little about how that's been, and what it involves!
 
-The patternmaking and design classes is a self-paced system, where you work through 12 units in an average of 24 months. The units start with skirts, then progress through different kinds of bodices and shirts, through to sleeves and collars, ending on pants.
+The backbone of the ~2.5 year program is the self-paced patternmaking and design classes. The class teaches drafting, or flat patternmaking -- going from a set of measurements to a flat pattern that is then sewn up. This differs from draping, which involves sculpting fabric on a dress form (I'm taking that class now, though!)
 
-You start on skirts -- drafting and sewing 23 different skirts in muslin, and fitting them in class. The first assignment is making a sloper, which is a generic skirt with 2 darts that you learn how to manipulate into different patterns.
+[picture: flat patternmaking vs draping]
+
+The series is broken down into units that focus on a specific garment: skirts, manipulating darts and princess seamlines in bodices, collars and sleeves, pockets, and finally ending on pants. The class meets once a week for 3 hours, and there's about 3-5 hours of homework between classes (though that amount is variable!)
+
+The first unit, skirts, takes the longest. The unit requires drafting and sewing 23 different skirts in muslin, and fitting them in class. It's an introduction to the basics of drafting and pattern manipulation techniques. 
+
+The first assignment is making a sloper, which is a generic skirt with 2 darts in the front, and 2 darts in the back. That sloper can then be manipulated into a bunch of different skirts -- skirts with pleats, skirts with yokes, pencil skirts, flared skirts, and so on. Along the way, I got a pretty good understanding of what styles I like on me.
+
+At the end of the unit, I had to design, draft, and sew 2 skirts in real fabric. I made one slightly strange skirt, and one basic one I knew I'd love and wear.
 
 
 - structure of the class
@@ -30,6 +36,7 @@ You start on skirts -- drafting and sewing 23 different skirts in muslin, and fi
 pictures:
 - checklist
 - textbook -- skirt sloper
+- sloper on tag
 - illustrations of the dart --> yoke
 - yoke muslin picture
 - final skirts
