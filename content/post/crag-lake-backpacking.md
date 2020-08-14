@@ -30,9 +30,7 @@ Meeks Bay trailhead → Crag Lake
 
 ![](https://paper-attachments.dropbox.com/s_DB2BA58B9AE71E052511F95820DB031AD547C061DCCBF57DF4228D5F4E4358AB_1597166276534_image.png "Getting ready to go")![](https://paper-attachments.dropbox.com/s_DB2BA58B9AE71E052511F95820DB031AD547C061DCCBF57DF4228D5F4E4358AB_1597166305266_image.png)
 
-## 
-
-Day 2: Day hike w/o packs
+## Day 2: Day hike w/o packs
 
 ## Day 3: Hike out
 
